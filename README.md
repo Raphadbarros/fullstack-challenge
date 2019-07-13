@@ -16,4 +16,4 @@
 API: http://localhost:4200/hero - Home
 3. Escolha a opção do Menu 
 4. Listar Heroes - Traz a uma lista de heroes.
-4.1 Buscar Heroi por Specie e mostra em outra tabela.
+5. Buscar Heroi por Specie e mostra em outra tabela.

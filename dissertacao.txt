@@ -1,0 +1,5 @@
+Sabendo que todos os programadores do Viajar Barato possuem amplo conhecimento em .NET e SQL Server,
+se você fosse construir um novo site do Viajar Barato, qual tecnologia e arquitetura você usaria?
+Explique o motivo da sua escolha e aponte como usar cada uma delas.
+
+Resposta: Utilizaria Angular. Tecnoligia consolidada e sempre atualizada que contem o Typescript para ajuda a deixar mais organizado o codigo. 
