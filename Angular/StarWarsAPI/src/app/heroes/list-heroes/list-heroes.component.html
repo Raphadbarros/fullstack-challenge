@@ -1,0 +1,39 @@
+
+<div class="form-group" [class.has-danger]="searchFailed">
+<label for="typeahead-basic" autofocus>Search for a state:</label>
+<input id="typeahead-format" (selectItem)="selectedItem($event)" type="text" class="form-control" [(ngModel)]="model" [ngbTypeahead]="search" 
+[resultFormatter]="formatter"/>
+<hr>
+</div>
+
+
+  <table class="table table-dark" id="ListarHeroes">
+      <thead>
+         <th>Nome Hero</th>
+         <th>Planet</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{clickedItem.heroName}}</td>
+          <td>{{clickedItem.nomePlaneta}}</td>
+        </tr>
+        </tbody>
+      </table>
+
+
+<table class="table table-dark" id="ListarHeroes">
+    <thead>
+       <th>Nome Hero</th>
+       <th>Planet</th>
+    </thead>
+    <tbody >
+    <tr ng-if="clickedItem == 'null'"  *ngFor="let heros of hero">
+      <td>{{heros.heroName}}</td>
+      <td>{{heros.nomePlaneta}}</td>
+    </tr>
+    </tbody>
+    </table>
+
+    
+      
+
